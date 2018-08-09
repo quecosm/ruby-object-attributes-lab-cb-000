@@ -1,6 +1,6 @@
 class Person
    def initialize
-      puts "Create an animal"
+      puts "Create a Person"
    end
    
    def set_name(new_name)
@@ -15,11 +15,11 @@ class Person
       @name = new_name
    end
    
-   def set_breed(new_breed)
-      @breed = new_breed
+   def set_job(new_job)
+      @job = new_job
    end
 
-   def breed
+   def job
       @breed
    end
 
